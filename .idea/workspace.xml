@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d7e392d-7117-4728-b74f-35dd011dd413" name="Default Changelist" comment="CategorieNames">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Catalog/model/CategoryRangeNames.java" afterDir="false" />
+    <list default="true" id="7d7e392d-7117-4728-b74f-35dd011dd413" name="Default Changelist" comment="CategorieDetails">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Catalog/model/CategoryLogoImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618357079782</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CategorieRangeNames">
+      <created>1618357472526</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618357472526</updated>
+    </task>
+    <task id="LOCAL-00003" summary="CategorieDetails">
+      <created>1618357631678</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618357631678</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +115,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Categories database connection" />
     <MESSAGE value="CategorieNames" />
-    <option name="LAST_COMMIT_MESSAGE" value="CategorieNames" />
+    <MESSAGE value="CategorieRangeNames" />
+    <MESSAGE value="CategorieDetails" />
+    <option name="LAST_COMMIT_MESSAGE" value="CategorieDetails" />
   </component>
 </project>
