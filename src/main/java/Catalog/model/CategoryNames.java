@@ -14,6 +14,14 @@ public class CategoryNames {
         Id = id;
     }
 
+    public int getCategoryId() {
+        return CategoryId;
+    }
+
+    public void setCategoryId(int categoryId) {
+        CategoryId = categoryId;
+    }
+
     public String getValue() {
         return Value;
     }

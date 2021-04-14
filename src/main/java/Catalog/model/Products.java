@@ -33,6 +33,14 @@ public class Products {
         this.Id = Id;
     }
 
+    public int getCategoryId() {
+        return CategoryId;
+    }
+
+    public void setCategoryId(int categoryId) {
+        CategoryId = categoryId;
+    }
+
     public String getAEN() {
         return AEN;
     }

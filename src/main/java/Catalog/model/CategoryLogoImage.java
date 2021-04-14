@@ -18,6 +18,14 @@ public class CategoryLogoImage {
         Id = id;
     }
 
+    public int getCategoryId() {
+        return CategoryId;
+    }
+
+    public void setCategoryId(int categoryId) {
+        CategoryId = categoryId;
+    }
+
     public String getType() {
         return Type;
     }
