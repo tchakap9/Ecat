@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d7e392d-7117-4728-b74f-35dd011dd413" name="Default Changelist" comment="Ajout de CategoryID get&amp;set">
+    <list default="true" id="7d7e392d-7117-4728-b74f-35dd011dd413" name="Default Changelist" comment="Ajout du DRIVER jdbc">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Catalog/dao/ReferenceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Catalog/model/CategoryDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Catalog/model/CategoryLogoImage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Catalog/model/CategoryNames.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Catalog/model/CategoryRangeNames.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Catalog/model/Products.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Catalog/dao/CategoriesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Catalog/dao/CategoriesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Catalog/model/Categories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Catalog/model/Categories.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Catalog/dao/CategoriesDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Catalog/dao/CategoriesDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Catalog/model/Categories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Catalog/model/Categories.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainApp.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618440854289</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ajout du DRIVER jdbc">
+      <created>1618516079688</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1618516079689</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +159,7 @@
     <MESSAGE value="CategoryLogoImage" />
     <MESSAGE value="Products" />
     <MESSAGE value="Ajout de CategoryID get&amp;set" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de CategoryID get&amp;set" />
+    <MESSAGE value="Ajout du DRIVER jdbc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout du DRIVER jdbc" />
   </component>
 </project>
