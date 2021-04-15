@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d7e392d-7117-4728-b74f-35dd011dd413" name="Default Changelist" comment="Products">
+    <list default="true" id="7d7e392d-7117-4728-b74f-35dd011dd413" name="Default Changelist" comment="Ajout de CategoryID get&amp;set">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Catalog/model/CategoryDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Catalog/model/CategoryDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Catalog/model/CategoryLogoImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Catalog/model/CategoryLogoImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Catalog/model/CategoryNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Catalog/model/CategoryNames.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Catalog/model/CategoryRangeNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Catalog/model/CategoryRangeNames.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Catalog/model/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Catalog/model/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainApp.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618363351887</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ajout de CategoryID get&amp;set">
+      <created>1618440854267</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618440854289</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +142,7 @@
     <MESSAGE value="CategorieDetails" />
     <MESSAGE value="CategoryLogoImage" />
     <MESSAGE value="Products" />
-    <option name="LAST_COMMIT_MESSAGE" value="Products" />
+    <MESSAGE value="Ajout de CategoryID get&amp;set" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de CategoryID get&amp;set" />
   </component>
 </project>
