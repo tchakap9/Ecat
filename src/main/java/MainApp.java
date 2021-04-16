@@ -10,7 +10,9 @@ public class MainApp {
         String url ="jdbc:sqlite:src/ecat.db";
         CategoriesDao categoriesDao = new CategoriesDao(url);
         java.util.Scanner entree =new java.util.Scanner (System.in);
+        System.out.println("================================");
         System.out.println("Bienvenue Dans Notre Application");
+        System.out.println("================================");
         System.out.println("Entrez Le nom de la Catégories de votre choix");
         String nom = entree.nextLine();
         System.out.println(nom);
