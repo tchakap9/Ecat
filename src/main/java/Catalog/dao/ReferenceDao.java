@@ -21,7 +21,7 @@ public class ReferenceDao {
                     ("select * from ProductDescriptions  left join  Products on Products.id  = ProductDescriptions.ProductId where Products.Reference =" + Reference);
 
             ResultSet resultSet = statement.executeQuery();
-            System.out.println(Reference);
+            /*System.out.println(Reference);*/
             ProductDescriptions ProductDescriptions = new ProductDescriptions();
 
             while (resultSet.next()) {

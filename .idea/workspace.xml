@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d7e392d-7117-4728-b74f-35dd011dd413" name="Default Changelist" comment="Reference DAO jointure">
+    <list default="true" id="7d7e392d-7117-4728-b74f-35dd011dd413" name="Default Changelist" comment="Reference DAO">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Catalog/dao/CategoriesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Catalog/dao/CategoriesDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Catalog/dao/ReferenceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Catalog/dao/ReferenceDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Catalog/dao/ReferenceDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Catalog/dao/CategoriesDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Catalog/dao/CategoriesDao.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1r5LwGsNGtxpY5qsEG0LKhpvlkg" />
   <component name="ProjectViewState">
@@ -149,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618580772266</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Reference DAO">
+      <created>1618675686745</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1618675686746</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +192,7 @@
     <MESSAGE value="jointure à nettoyer2" />
     <MESSAGE value="Nouvelles classes" />
     <MESSAGE value="Reference DAO jointure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reference DAO jointure" />
+    <MESSAGE value="Reference DAO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reference DAO" />
   </component>
 </project>
