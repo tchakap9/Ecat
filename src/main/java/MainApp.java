@@ -15,6 +15,7 @@ public class MainApp {
         CategoriesDao categoriesDao = new CategoriesDao(url);
         ReferenceDao ReferenceDao = new ReferenceDao(url);
         java.util.Scanner entree = new java.util.Scanner (System.in);
+        java.util.Scanner entree2 = new java.util.Scanner (System.in);
 
         //
         Map<Integer, String> mapAllCategories = categoriesDao.findAllCategorieName();
@@ -34,14 +35,18 @@ public class MainApp {
         System.out.println("Choisissez une catégorie : ");
         int categorieChoisie = entree.nextInt();
         System.out.println(categoriesDao.findAllSousCategoriesByCategoryId(mapIdCategorie.get(categorieChoisie)));
-        System.out.println("Entrez Le nom de la Catégories de votre choix :");
-        String nom = entree.nextLine();
+        System.out.println("Entrez Le nom de la Catégorie de votre choix :");
+        String nom = entree2.nextLine();
+        Categories categories = categoriesDao.getCategoriesbyId(nom);
+        System.out.println(categories);
+
+        System.out.println("Vous avez enntré : " + nom);
+        System.out.println(categories.Image);
         System.out.println("Entrez La reférence du produit :");
-        int Reference = entree.nextInt();
+        int Reference = entree2.nextInt();
         /*System.out.println(nom);
         System.out.println(Reference);*/
-        Categories categories = categoriesDao.getCategoriesbyId(nom);
-        System.out.println(categories.Image);
+
         ProductDescriptions ProductDescriptions = ReferenceDao.getProductDescriptionsbyId(Reference);
         System.out.println("Le numéro de Référence correspond au produit : " + ProductDescriptions.Value);
     }

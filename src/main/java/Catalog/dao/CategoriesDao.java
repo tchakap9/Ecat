@@ -16,7 +16,7 @@ public class CategoriesDao {
         try {
             Connection con = DriverManager.getConnection(url);
             PreparedStatement statement = con.prepareStatement
-                    ("select * from Categories as cat, CategoryNames as CN where cat.id =CN.CategoryId AND CN.Value ='"+name+"'"
+                    ("select * from Categories as cat, CategoryNames as CN where cat.Id =CN.CategoryId AND CN.Value ='"+name+"'"
                     );
             ResultSet resultSet = statement.executeQuery();
             /*System.out.println(name);*/
