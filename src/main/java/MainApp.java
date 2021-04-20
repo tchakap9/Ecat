@@ -21,10 +21,15 @@ public class MainApp {
         Map<Integer, String> mapAllCategories = categoriesDao.findAllCategorieName();
         Map<Integer, String> mapAAfficher = new HashMap<>();
         Map<Integer, Integer> mapIdCategorie = new HashMap<>();
+        Map<Integer, String> mapIdCategories = new HashMap<>();
         int i = 0;
         for ( Map.Entry<Integer, String> entry : mapAllCategories.entrySet() ) {
             mapAAfficher.put(i, entry.getValue());
             mapIdCategorie.put(i, entry.getKey());
+            i++;
+        }
+        for ( Map.Entry<Integer, String> entry : mapIdCategories.entrySet() ) {
+            mapIdCategories.put(i, entry.getValue());
             i++;
         }
         //
@@ -32,22 +37,31 @@ public class MainApp {
         System.out.println("Bienvenue Dans Notre Application");
         System.out.println("================================");
         System.out.println(mapAAfficher);
-        System.out.println("Choisissez une catégorie : ");
+        System.out.println("Choisissez un chiffre de  catégorie : ");
         int categorieChoisie = entree.nextInt();
         System.out.println(categoriesDao.findAllSousCategoriesByCategoryId(mapIdCategorie.get(categorieChoisie)));
-        System.out.println("Entrez Le nom de la Catégorie de votre choix :");
-        String nom = entree2.nextLine();
-        Categories categories = categoriesDao.getCategoriesbyId(nom);
+        System.out.println("Choisissez le nombre correspondant à la sous catégorie : ");
+        categorieChoisie = entree.nextInt();
+        System.out.println(categoriesDao.findAllSousCategoriesByCategoryId(categorieChoisie));
+
+        while(!categoriesDao.findAllSousCategoriesByCategoryId(categorieChoisie).isEmpty()){
+            System.out.println("Choisissez le nombre correspondant à la sous catégorie : ");
+            categorieChoisie = entree.nextInt();
+            System.out.println(categoriesDao.findAllSousCategoriesByCategoryId(categorieChoisie));
+
+        }
+
+        /*Categories categories = categoriesDao.getCategoriesbyId(nom);
         System.out.println(categories);
 
         System.out.println("Vous avez enntré : " + nom);
         System.out.println(categories.Image);
         System.out.println("Entrez La reférence du produit :");
         int Reference = entree2.nextInt();
-        /*System.out.println(nom);
-        System.out.println(Reference);*/
+        System.out.println(nom);
+        System.out.println(Reference);
 
         ProductDescriptions ProductDescriptions = ReferenceDao.getProductDescriptionsbyId(Reference);
-        System.out.println("Le numéro de Référence correspond au produit : " + ProductDescriptions.Value);
+        System.out.println("Le numéro de Référence correspond au produit : " + ProductDescriptions.Value);*/
     }
 }

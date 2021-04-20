@@ -63,6 +63,7 @@ public class CategoriesDao {
         return null;
     }
 
+
     public Map<Integer, String> findAllSousCategoriesByCategoryId(Integer categoryId) {
         try {
             Connection con = DriverManager.getConnection(url);
