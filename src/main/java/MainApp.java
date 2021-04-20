@@ -38,7 +38,8 @@ public class MainApp {
         System.out.println("================================");
         System.out.println(mapAAfficher);
         System.out.println("Choisissez un chiffre de  catégorie : ");
-        int categorieChoisie = entree.nextInt();
+        int categorieChoisie = 0;
+        categorieChoisie = entree.nextInt();
         System.out.println(categoriesDao.findAllSousCategoriesByCategoryId(mapIdCategorie.get(categorieChoisie)));
         System.out.println("Choisissez le nombre correspondant à la sous catégorie : ");
         categorieChoisie = entree.nextInt();
