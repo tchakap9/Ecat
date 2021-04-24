@@ -1,13 +1,68 @@
 import Catalog.dao.CategoriesDao;
+import Catalog.dao.ReferenceDao;
 import Catalog.model.Categories;
+import Catalog.model.ProductDescriptions;
+
+import java.text.SimpleDateFormat;
+import java.util.HashMap;
+import java.util.Map;
 
 public class MainApp {
+
     public static void main(String[] args){
         System.out.println("Starting");
-        String url ="jdbc:odbc:ecat.db";
+        String url ="jdbc:sqlite:src/ecat.db";
         CategoriesDao categoriesDao = new CategoriesDao(url);
+        ReferenceDao ReferenceDao = new ReferenceDao(url);
+        java.util.Scanner entree = new java.util.Scanner (System.in);
+        java.util.Scanner entree2 = new java.util.Scanner (System.in);
 
-        Categories categories = categoriesDao.getCategoriesbyId(4936);
-        System.out.println("Done");
+        //
+        Map<Integer, String> mapAllCategories = categoriesDao.findAllCategorieName();
+        Map<Integer, String> mapAAfficher = new HashMap<>();
+        Map<Integer, Integer> mapIdCategorie = new HashMap<>();
+        Map<Integer, String> mapIdCategories = new HashMap<>();
+        int i = 0;
+        for ( Map.Entry<Integer, String> entry : mapAllCategories.entrySet() ) {
+            mapAAfficher.put(i, entry.getValue());
+            mapIdCategorie.put(i, entry.getKey());
+            i++;
+        }
+        for ( Map.Entry<Integer, String> entry : mapIdCategories.entrySet() ) {
+            mapIdCategories.put(i, entry.getValue());
+            i++;
+        }
+        //
+        System.out.println("================================");
+        System.out.println("Bienvenue Dans Notre Application");
+        System.out.println("================================");
+        System.out.println(mapAAfficher);
+        System.out.println("Choisissez un chiffre de  catégorie : ");
+        int categorieChoisie = 0;
+        categorieChoisie = entree.nextInt();
+        System.out.println(categoriesDao.findAllSousCategoriesByCategoryId(mapIdCategorie.get(categorieChoisie)));
+        System.out.println("Choisissez le nombre correspondant à la sous catégorie : ");
+        categorieChoisie = entree.nextInt();
+        System.out.println(categoriesDao.findAllSousCategoriesByCategoryId(categorieChoisie));
+
+        while(!categoriesDao.findAllSousCategoriesByCategoryId(categorieChoisie).isEmpty()){
+            System.out.println("Choisissez le nombre correspondant à la sous catégorie : ");
+            categorieChoisie = entree.nextInt();
+            System.out.println(categoriesDao.findAllSousCategoriesByCategoryId(categorieChoisie));
+
+        }
+
+        /*Categories categories = categoriesDao.getCategoriesbyId(nom);
+        System.out.println(categories);
+
+        System.out.println("Vous avez enntré : " + nom);
+        System.out.println(categories.Image);
+        System.out.println("Entrez La reférence du produit :");
+        int Reference = entree2.nextInt();
+        System.out.println(nom);
+        System.out.println(Reference);
+
+        ProductDescriptions ProductDescriptions = ReferenceDao.getProductDescriptionsbyId(Reference);
+        System.out.println("Le numéro de Référence correspond au produit : " + ProductDescriptions.Value);*/
     }
 }
