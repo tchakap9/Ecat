@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d7e392d-7117-4728-b74f-35dd011dd413" name="Default Changelist" comment="categorie et sous categorie">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="7d7e392d-7117-4728-b74f-35dd011dd413" name="Default Changelist" comment="liste de produit et moteur de recherche">
+      <change afterPath="$PROJECT_DIR$/target/classes/Catalog/dao/ProductsDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Catalog/dao/ReferenceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Catalog/dao/ProductsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Catalog/model/ProductDescriptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Catalog/model/ProductDescriptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Catalog/dao/ReferenceDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Catalog/dao/ReferenceDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Catalog/model/ProductDescriptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Catalog/model/ProductDescriptions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainApp.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618960932985</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="liste de produit et moteur de recherche">
+      <created>1619303014330</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1619303014415</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +223,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Categories database connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Categories database connection" />
+    <MESSAGE value="liste de produit et moteur de recherche" />
+    <option name="LAST_COMMIT_MESSAGE" value="liste de produit et moteur de recherche" />
   </component>
 </project>
